@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Bodice Pattern Maker</title>
+<meta name="description" content="Our first page">
+</head>
+<script src="index.js"></script>
+<body>
+
+<h1>Conical Bodice Pattern Maker</h1>
+<form>
+  <h2>Measurements</h2>
+  <p>Full Bust: <input id="Braw" type="text" value="81"></p>
+  <p>Full Waist: <input id="Wraw" type="text" value="66"</p>
+  <p>Bust to Waist: <input id="Iraw" type="text" value="18"></p>
+  <p id="errorMessage"></p>
+  <input type="submit" value="Make Pattern">
+
+</form>
+<button id="downloaded" ></button>
+<br>
+<h3>Preview</h3>
+<canvas id="c" style="border:1px solid #d3d3d3;">
+Your browser does not support the canvas element.
+</canvas>
+
+</body>
+</html>
