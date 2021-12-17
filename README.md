@@ -1,2 +1,2 @@
 # conical-pattern-maker
-Pattern Maker 2: The Second Try
+# Pattern Maker 2: The Second Try
